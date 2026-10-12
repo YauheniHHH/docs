@@ -215,7 +215,7 @@ Both connected tools and MCP servers are immediately available in the selection 
 
 #### Tools a Script Can Call
 
-A Tool node that runs the workspace script tool shows an extra **Tools the script may call** section. The script calls no tool until tools are selected there, and for each tool the integration can be found automatically or limited to selected integration aliases. See [Choosing the Tools of a Workflow Step](../tools_integrations/tools/workspace-script-sdk.md#choosing-the-tools-of-a-workflow-step).
+A Tool node that runs the workspace script tool shows an extra **Tools the script may call** section. The script calls no tool until tools are selected there. Tools are selected as for a Tool node or an assistant, and several tools can be selected; for each tool the integration is found automatically or one integration is selected. See [Choosing the Tools of a Workflow Step](../tools_integrations/tools/workspace-script-sdk.md#choosing-the-tools-of-a-workflow-step).
 
 ### Custom State
 
