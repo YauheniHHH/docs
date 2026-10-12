@@ -78,6 +78,8 @@ Whose integration is used for a selected alias depends on the workflow:
 A selected alias in a global workflow gives every user who runs the workflow the access of the author's integration. Select such aliases only when this is intended. When a global workflow like this is saved or validated, a notification lists the tools that run under the author's integration. When the workflow is published to the marketplace, the selected aliases are listed in the credential review, which asks for confirmation. See [Credential Review](../../workflows/marketplace-publishing.md#credential-review).
 :::
 
+![Notification about the tools that run under the author's integration](./images/script-step-owner-integration-warning.png)
+
 When the workflow is saved, each selected tool and alias is checked. The save is refused with the message **Invalid tool access** and the reason when a tool does not exist or cannot be called from a script, a tool is selected twice, an alias does not exist for the author of the workflow, an alias does not fit the credential type of the tool, or a tool that takes no credentials has an alias.
 
 ---
